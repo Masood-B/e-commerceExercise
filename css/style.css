@@ -58,8 +58,10 @@ nav, main, footer{
     width: 20rem;
     border: 2px solid black;
 }
-img{
-    width: 100%;
+.img-fluid{
+  width:20rem;
+  object-fit: contain;
+  aspect-ratio: 3 / 2;
 }
       @media (max-width:502px) {
         .container{
