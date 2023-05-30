@@ -11,14 +11,14 @@ let manga = [
     pic:"https://i.postimg.cc/Wp6RNcBD/no-game-no-life-vol-1-2.jpg",
     namme:"No Game No Life Manga",
     title:"No Game No Life",
-    cost:"R 399",
+    cost:"R 499",
     },
     {
     id: 3,
     pic:"https://i.postimg.cc/TPm7trGy/sk1g6a44e3121.jpg",
     namme:"Yuragi-sou no Yuuna-san Manga",
     title:"Yuragi-sou no Yuuna-san",
-    cost:"R 399",
+    cost:"R 299",
     },
     {
     id: 4,
@@ -32,7 +32,7 @@ let manga = [
     pic:"https://i.postimg.cc/QxwJvHfc/Volume-01.webp",
     namme:"Mato Seihei no Slave Manga",
     title:"Mato Seihei no Slave",
-    cost:"R 399",
+    cost:"R 299",
     }
 ]
 
