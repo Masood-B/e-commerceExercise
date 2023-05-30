@@ -8,7 +8,7 @@ body{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 100vh auto;
+    grid-template-rows: auto;
 }
 /* nav, main ,footer  */
 nav, main, footer{
@@ -61,7 +61,11 @@ nav, main, footer{
 .img-fluid{
   width:20rem;
   object-fit: contain;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 2 / 3;
+  padding-block: 1rem;
+}
+.books{
+    display: flex;
 }
       @media (max-width:502px) {
         .container{
