@@ -8,7 +8,7 @@ body{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 100vh;
+    grid-template-rows: auto 100vh auto;
 }
 /* nav, main ,footer  */
 nav, main, footer{
