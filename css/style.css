@@ -3,11 +3,16 @@ img[alt="Logo"]{
     width:5rem;
     border-radius: 1rem;
 }
-/* body */
+/* body (outer layout)  */
 body{
-    background-image: linear-gradient(to bottom right, rgb(69, 58, 58), rgb(230, 142, 241));
-    background-repeat: no-repeat;
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 100vh;
+}
+/* nav, main ,footer  */
+nav, main, footer{
+    grid-column: 1 / -1;
 }
 /* contact form (formspree) */
      input[type=text], select, textarea {
@@ -52,6 +57,9 @@ body{
 .cards-wrapper {
     width: 20rem;
     border: 2px solid black;
+}
+img{
+    width: 100%;
 }
       @media (max-width:502px) {
         .container{

@@ -44,7 +44,7 @@ manga.forEach((reader)=> {
     <img src="${reader.pic}" alt="${reader.namme}" loading="lazy" class="img-fluid">
     <h2>${reader.title}</h2>
     </div>
-    <p class="price">${reader.cost}</p>
+    <p class="lead price">${reader.cost}</p>
     </div>
     `
 })
