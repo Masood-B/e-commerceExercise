@@ -18,6 +18,10 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
+    background-image: url(https://i.postimg.cc/hjMQW0my/pexels-jakub-novacek-924824.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .wrapper{
@@ -74,14 +78,15 @@ body{
 }
 /* pic size */
 .img-fluid{
-  width:20rem;
+  width:10rem;
+  
   object-fit: contain;
   aspect-ratio: 2 / 3;
-  padding-block:;
+  padding-block:2;
 }
 /* products to column line */
 .books{
-    display: flex;
+    /* display: flex; */
     padding-bottom: 1rem;
 }
 /* home text to the centre */
@@ -89,8 +94,11 @@ body{
   margin-top:10rem;
 }
 footer{
-  background: #45a049;
-  /* margin-top: 1rem; */
+  background: rgb(23, 20, 20);
+  color: white;
+}
+h1, h2, p{
+  color: white;
 }
       @media (max-width:502px) {
         .container{
